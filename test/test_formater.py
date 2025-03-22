@@ -3,7 +3,7 @@ import unittest
 
 
 class TestFormater(unittest.TestCase):
-    def test_plain_upper_case(self):
+    def test_plain_uppercase(self):
         r = plain_text_upper_case("wwww", "EEEMSG")
         name = r.split(" ")[0]
         msg = r.split(" ")[1]
